@@ -60,7 +60,7 @@ export const HomeCon = () => {
         <Con key={con.id}>
           <ConWrap
             $pdTop={con.id === 0 ? 180 : 90}
-            $direct={con.id === 1 ? "row-reverse" : "row"}
+            $direct={con.id % 2 === 1 ? "row-reverse" : "row"}
           >
             <ConText>
               <h3>{con.title}</h3>
