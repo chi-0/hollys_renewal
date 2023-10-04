@@ -2,7 +2,9 @@ export const color = {
   BlackColor: "#111",
   RedColor: "#BA000D",
   WhiteColor: "#FFF",
-  FooterGray: "#eaeaea",
+  lightGray: "#d8d8d8",
+  gray: "#ababab",
+  darkGray: "#444",
 };
 
 export const fontFamily = {

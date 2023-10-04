@@ -1,7 +1,13 @@
+import { SubBanner } from "../components/SubBanner";
+import { SubNav } from "../components/SubNav";
+import { banner } from "../subData";
+import { menuMenu } from "./menuData";
+
 export const Menu = () => {
   return (
     <>
-      <h2>추후 만들 예정입니다.</h2>
+      <SubBanner bannerImg={banner[0].img} bannerTitle={banner[0].title} />
+      <SubNav subNav={menuMenu} />
     </>
   );
 };

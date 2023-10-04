@@ -10,6 +10,7 @@ const Banner = styled.section`
   align-items: center;
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url(${homeBanner}) no-repeat center / cover;
+  background-attachment: fixed;
 `;
 
 const BannerText = styled.div`
