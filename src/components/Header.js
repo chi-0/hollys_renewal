@@ -10,6 +10,7 @@ const HeaderTopWrap = styled.header`
   width: 100%;
   margin: 0 auto;
   background-color: ${color.RedColor};
+  z-index: 99;
 `;
 
 const HeaderTop = styled.div`
@@ -79,6 +80,7 @@ const HeaderBottomWrap = styled.header`
   position: sticky;
   top: 0;
   left: 0;
+  z-index: 99;
 `;
 
 const HeaderBottom = styled.div`
@@ -156,7 +158,7 @@ export const Header = () => {
       <HeaderBottomWrap>
         <HeaderBottom>
           <HBleft>
-            <Link to={"/menu/new"}>MENU</Link>
+            <Link to={"/menu/newMenu"}>MENU</Link>
             <Link to={"/hollys_mall"}>HOLLYS MALL</Link>
             <Link to={"/events"}>EVENTS & NEWS</Link>
           </HBleft>

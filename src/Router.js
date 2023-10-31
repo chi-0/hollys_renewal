@@ -11,7 +11,7 @@ export const Router = () => {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/menu/new" element={<Menu />} />
+        <Route path="/menu/:id" element={<Menu />} />
         <Route path="/*" element={<PageNotFound />} />
       </Routes>
       <Footer />

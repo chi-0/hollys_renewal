@@ -1,13 +1,11 @@
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import styled from "styled-components";
 import { color } from "../../common/common";
-import { menuMenu } from "../Menu/menuData";
 
 const NavWrap = styled.nav`
-  max-width: 1200px;
   width: 100%;
   height: 60px;
-  margin: 90px auto 80px auto;
+  margin: 0 auto;
   border-bottom: 1px solid ${color.gray};
   display: flex;
   justify-content: center;
@@ -19,6 +17,7 @@ const SubMenu = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
 
   a {
     color: ${color.BlackColor};
@@ -26,12 +25,26 @@ const SubMenu = styled.div`
   }
 `;
 
+const SubNavFocus = styled.div`
+  width: 80%;
+  height: 3px;
+  background-color: ${color.RedColor};
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: ${(props) => props.$dis};
+`;
+
 export const SubNav = ({ subNav }) => {
+  const { id } = useParams();
+
   return (
     <NavWrap>
       {subNav.map((con) => (
-        <SubMenu>
-          <Link to={"/menu/" + con.location}>{con.title}</Link>
+        <SubMenu key={con.id}>
+          <Link to={`/${con.location + con.en}`}>{con.title}</Link>
+          <SubNavFocus $dis={con.en === id ? "block" : "none"} />
         </SubMenu>
       ))}
     </NavWrap>
