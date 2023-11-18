@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/hollys_renewal/static/js/main.6a82988a.js",
+    "main.js": "/hollys_renewal/static/js/main.22d8f2ec.js",
     "static/media/menu_banner.png": "/hollys_renewal/static/media/menu_banner.31539a51c3925e497747.png",
     "static/media/new_2.png": "/hollys_renewal/static/media/new_2.68efb0117781b910d02d.png",
     "static/media/new_1.png": "/hollys_renewal/static/media/new_1.16684e122782a5d9b950.png",
@@ -30,9 +30,9 @@
     "static/media/md_4.png": "/hollys_renewal/static/media/md_4.276582f95169543a017c.png",
     "static/media/md_3.png": "/hollys_renewal/static/media/md_3.c4c410f3a64266a815e5.png",
     "index.html": "/hollys_renewal/index.html",
-    "main.6a82988a.js.map": "/hollys_renewal/static/js/main.6a82988a.js.map"
+    "main.22d8f2ec.js.map": "/hollys_renewal/static/js/main.22d8f2ec.js.map"
   },
   "entrypoints": [
-    "static/js/main.6a82988a.js"
+    "static/js/main.22d8f2ec.js"
   ]
 }
