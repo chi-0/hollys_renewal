@@ -33,11 +33,11 @@ export const Shortcut = () => {
   return (
     <Shortcuts>
       <Link to={"/가맹문의"}>
-        <img src={homeIcon}></img>
+        <img src={homeIcon} alt="homeIcon" />
         <span>가맹문의</span>
       </Link>
       <Link to={"/가맹상담"}>
-        <img src={telIcon}></img>
+        <img src={telIcon} alt="telIcon" />
         <span>가맹상담</span>
       </Link>
     </Shortcuts>

@@ -61,7 +61,7 @@ const FooterBottom = styled.div`
   justify-content: space-between;
 `;
 
-const FooterBox_1 = styled.ul`
+const FooterBox1 = styled.ul`
   font-size: 14px;
   color: #eaeaea;
 
@@ -86,7 +86,7 @@ const FooterBox_1 = styled.ul`
   }
 `;
 
-const FooterBox_2 = styled.div`
+const FooterBox2 = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -194,15 +194,15 @@ export const Footer = () => {
         </FooterTop>
 
         <FooterBottom>
-          <FooterBox_1>
+          <FooterBox1>
             <li>법인명: (주) 케이지할리스에프앤비</li>
             <li>대표자: 이종현</li>
             <li>사업자등록번호 211-87-61044</li>
             <li>통신판매업: 제2019-서울종로-0193호</li>
             <li>주소 : 서울특별시 중구 통일로 92, 9층(순화동, 케이지타워)</li>
             <li>COPYRIGHT (C) KG HOLLYS F&B. All Rights Reserved.</li>
-          </FooterBox_1>
-          <FooterBox_2>
+          </FooterBox1>
+          <FooterBox2>
             <FooterSns>
               <FacebookBtn></FacebookBtn>
               <InstaBtn></InstaBtn>
@@ -217,7 +217,7 @@ export const Footer = () => {
                 <span>02-6350-7229</span>
               </RefTel>
             </FooterTel>
-          </FooterBox_2>
+          </FooterBox2>
         </FooterBottom>
       </FooterWrap>
     </>

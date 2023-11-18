@@ -7,7 +7,7 @@ import { Footer } from "./components/Footer";
 
 export const Router = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={"/hollys_renewal"}>
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
