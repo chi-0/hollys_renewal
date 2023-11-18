@@ -158,7 +158,7 @@ export const Header = () => {
       <HeaderBottomWrap>
         <HeaderBottom>
           <HBleft>
-            <Link to={"/menu/newMenu"}>MENU</Link>
+            <Link to={"/menu/coffee"}>MENU</Link>
             <Link to={"/hollys_mall"}>HOLLYS MALL</Link>
             <Link to={"/events"}>EVENTS & NEWS</Link>
           </HBleft>

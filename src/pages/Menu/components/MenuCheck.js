@@ -47,7 +47,7 @@ export const MenuCheck = () => {
     <Wrap>
       <MenuSelect>
         <Menu>
-          <input type="checkbox" id="all" checked onClick={test} />
+          <input type="checkbox" id="all" checked />
           <label for="all">전체</label>
         </Menu>
         <Menu>
