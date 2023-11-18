@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.js": "/hollys_renewal/static/js/main.6a82988a.js",
+    "static/media/menu_banner.png": "/hollys_renewal/static/media/menu_banner.31539a51c3925e497747.png",
+    "static/media/new_2.png": "/hollys_renewal/static/media/new_2.68efb0117781b910d02d.png",
+    "static/media/new_1.png": "/hollys_renewal/static/media/new_1.16684e122782a5d9b950.png",
+    "static/media/new_3.png": "/hollys_renewal/static/media/new_3.d521f4221c014f207e75.png",
+    "static/media/location.png": "/hollys_renewal/static/media/location.94b19c78e4fe94c4b14b.png",
+    "static/media/homeBanner.jpg": "/hollys_renewal/static/media/homeBanner.ad7a0ddb7de921178c89.jpg",
+    "static/media/md_2.png": "/hollys_renewal/static/media/md_2.7adbceef11186c8cf1e0.png",
+    "static/media/md_1.png": "/hollys_renewal/static/media/md_1.ce854b341983ba888ef6.png",
+    "static/media/Affogato.png": "/hollys_renewal/static/media/Affogato.5973627d628fdce0777d.png",
+    "static/media/brew_delight.png": "/hollys_renewal/static/media/brew_delight.71c98b10f12579ec7b82.png",
+    "static/media/brew_latte.png": "/hollys_renewal/static/media/brew_latte.71c98b10f12579ec7b82.png",
+    "static/media/ristretto_delight.png": "/hollys_renewal/static/media/ristretto_delight.71c98b10f12579ec7b82.png",
+    "static/media/americano.png": "/hollys_renewal/static/media/americano.b48dac6cda56f8f7b7c0.png",
+    "static/media/brew.png": "/hollys_renewal/static/media/brew.b48dac6cda56f8f7b7c0.png",
+    "static/media/decaf_americano.png": "/hollys_renewal/static/media/decaf_americano.b48dac6cda56f8f7b7c0.png",
+    "static/media/macchiato.png": "/hollys_renewal/static/media/macchiato.404aead0ba850a51312d.png",
+    "static/media/bonui_latte.png": "/hollys_renewal/static/media/bonui_latte.8418dadb172d3fe77a35.png",
+    "static/media/caffe_latte.png": "/hollys_renewal/static/media/caffe_latte.e989b3989bad1f8977c2.png",
+    "static/media/decaf_caffe_latte.png": "/hollys_renewal/static/media/decaf_caffe_latte.e989b3989bad1f8977c2.png",
+    "static/media/aria_americano.png": "/hollys_renewal/static/media/aria_americano.d9f8a17f3cc8d2d1dfd5.png",
+    "static/media/aria_deep_latte.png": "/hollys_renewal/static/media/aria_deep_latte.468903a8d5f1f44500fe.png",
+    "static/media/decaf_vanilla_delight.png": "/hollys_renewal/static/media/decaf_vanilla_delight.9ad082b3df673875ec28.png",
+    "static/media/vanilla_delight.png": "/hollys_renewal/static/media/vanilla_delight.9ad082b3df673875ec28.png",
+    "static/media/mocha.png": "/hollys_renewal/static/media/mocha.7a5f935703172718dc61.png",
+    "static/media/espresso.png": "/hollys_renewal/static/media/espresso.d6c48a3d920e28cf95b6.png",
+    "static/media/cappuccino.png": "/hollys_renewal/static/media/cappuccino.dcbb1a26e847c7b79c30.png",
+    "static/media/md_4.png": "/hollys_renewal/static/media/md_4.276582f95169543a017c.png",
+    "static/media/md_3.png": "/hollys_renewal/static/media/md_3.c4c410f3a64266a815e5.png",
+    "index.html": "/hollys_renewal/index.html",
+    "main.6a82988a.js.map": "/hollys_renewal/static/js/main.6a82988a.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.6a82988a.js"
+  ]
+}
